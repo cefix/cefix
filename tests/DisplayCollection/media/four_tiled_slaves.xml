@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<propertylist>
+    <displays>
+        <displays>
+            <displays>
+                <key type="string" value="main" />
+                <value>
+                    <identifier type="string" value="main" />
+                    <viewport>
+                        <x type="double" value="0" />
+                        <y type="double" value="0" />
+                        <width type="double" value="1440" />
+                        <height type="double" value="900" />
+                    </viewport>
+                    <c2d>
+                        <width type="float" value="1440" />
+                        <height type="float" value="900" />
+                    </c2d>
+                    <c3d>
+                        <near_plane type="float" value="1" />
+                        <far_plane type="float" value="1000" />
+                        <is_frustum type="boolean" value="false" />
+                        <horizonal_field_of_view type="float" value="60" />
+                        <vertical_field_of_view type="float" value="-1" />
+                    </c3d>
+                    <is_master type="boolean" value="false" />
+                    <is_slave type="boolean" value="false" />
+                </value>
+            </displays>
+        </displays>
+        <windows>
+            <windows id="1">
+                <traits>
+                    <x type="integer" value="100" />
+                    <y type="integer" value="100" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="1" />
+                    <windowDecoration type="boolean" value="true" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="true" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <__CLASS type="string" value="tiled_display" />
+                        <identifier type="string" value="first_display" />
+                        <main_display_id  type="string" value="main" />
+                        <clipping_rect type="vec4f" x="100.0000000000" y="100.0000000000" z="450.0000000000" w="450.0000000000" />
+                        <apply_to_2d type="boolean" value="true" />
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_context type="boolean" value="true" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="2">
+                <traits>
+                    <x type="integer" value="500" />
+                    <y type="integer" value="100" />
+                    <width type="integer" value="650" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="2" />
+                    <windowDecoration type="boolean" value="true" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="true" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <__CLASS type="string" value="tiled_display" />
+                        <identifier type="string" value="second_display" />
+                        <main_display_id  type="string" value="main" />
+                        <clipping_rect type="vec4f" x="500.0000000000" y="100.0000000000" z="1150.0000000000" w="450.0000000000" />
+                        <apply_to_2d type="boolean" value="true" />
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_context type="boolean" value="true" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="3">
+                <traits>
+                    <x type="integer" value="550" />
+                    <y type="integer" value="500" />
+                    <width type="integer" value="650" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="3" />
+                    <windowDecoration type="boolean" value="true" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="true" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <__CLASS type="string" value="tiled_display" />
+                        <identifier type="string" value="third_display" />
+                        <main_display_id  type="string" value="main" />
+                        <clipping_rect type="vec4f" x="550.0000000000" y="500.0000000000" z="1200.0000000000" w="850.0000000000" />
+                        <apply_to_2d type="boolean" value="true" />
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_context type="boolean" value="true" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="4">
+                <traits>
+                    <x type="integer" value="100" />
+                    <y type="integer" value="470" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="4" />
+                    <windowDecoration type="boolean" value="true" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="true" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <__CLASS type="string" value="tiled_display" />
+                        <identifier type="string" value="fourth_display" />
+                        <main_display_id  type="string" value="main" />
+                        <clipping_rect type="vec4f" x="100.0000000000" y="470.0000000000" z="450.0000000000" w="820.0000000000" />
+                        <apply_to_2d type="boolean" value="true" />
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_context type="boolean" value="true" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+        </windows>
+        <eye_pos type="vec3f" x="0.0000000000" y="0.0000000000" z="0.0000000000" />
+    </displays>
+</propertylist>

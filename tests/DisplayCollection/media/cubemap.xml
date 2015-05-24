@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<propertylist>
+    <displays>
+        <displays>
+            <displays>
+                <key type="string" value="main" />
+                <value>
+                    <__CLASS type="string" value="custom_projection_display" />
+                    <identifier type="string" value="main" />
+                    <projection type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                </value>
+            </displays>
+        </displays>
+        <windows>
+            <windows id="1">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="100" />
+                    <y type="integer" value="450" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="left" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="left_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="-1.0" y="1.0" z="1.0" />
+                            <bottom_left_corner type="vec3f" x="-1.0" y="-1.0" z="1.0" />
+                            <bottom_right_corner type="vec3f" x="-1.0" y="-1.0" z="-1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="2">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="450" />
+                    <y type="integer" value="450" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="back" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="back_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="-1.0" y="1.0" z="-1.0" />
+                            <bottom_left_corner type="vec3f" x="-1.0" y="-1.0" z="-1.0" />
+                            <bottom_right_corner type="vec3f" x="1.0" y="-1.0" z="-1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="3">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="800" />
+                    <y type="integer" value="450" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="right" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="right_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="1.0" y="1.0" z="-1.0" />
+                            <bottom_left_corner type="vec3f" x="1.0" y="-1.0" z="-1.0" />
+                            <bottom_right_corner type="vec3f" x="1.0" y="-1.0" z="1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="4">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="1150" />
+                    <y type="integer" value="450" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="front" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="front_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="1.0" y="1.0" z="1.0" />
+                            <bottom_left_corner type="vec3f" x="1.0" y="-1.0" z="1.0" />
+                            <bottom_right_corner type="vec3f" x="-1.0" y="-1.0" z="1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="5">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="450" />
+                    <y type="integer" value="800" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="bottom" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="bottom_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="-1.0" y="-1.0" z="-1.0" />
+                            <bottom_left_corner type="vec3f" x="-1.0" y="-1.0" z="1.0" />
+                            <bottom_right_corner type="vec3f" x="1.0" y="-1.0" z="1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+            <windows id="6">
+                <enabled type="boolean" value="true" />
+                <traits>
+                    <x type="integer" value="450" />
+                    <y type="integer" value="100" />
+                    <width type="integer" value="350" />
+                    <height type="integer" value="350" />
+                    <screenNum type="integer" value="0" />
+                    <displayNum type="integer" value="0" />
+                    <hostName type="string" value="" />
+                    <windowName type="string" value="top" />
+                    <windowDecoration type="boolean" value="false" />
+                    <supportsResize type="boolean" value="true" />
+                    <red type="integer" value="8" />
+                    <blue type="integer" value="8" />
+                    <green type="integer" value="8" />
+                    <stencil type="integer" value="0" />
+                    <sampleBuffers type="integer" value="0" />
+                    <samples type="integer" value="0" />
+                    <pbuffer type="boolean" value="false" />
+                    <quadBufferStereo type="boolean" value="false" />
+                    <doubleBuffer type="boolean" value="true" />
+                    <vsync type="boolean" value="false" />
+                    <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                    <useCursor type="boolean" value="true" />
+                </traits>
+                <displays>
+                    <displays>
+                        <identifier type="string" value="top_display" />
+                        <viewport>
+                            <x type="double" value="0" />
+                            <y type="double" value="0" />
+                            <width type="double" value="350" />
+                            <height type="double" value="350" />
+                        </viewport>
+                        <c2d>
+                            <width type="float" value="0" />
+                            <height type="float" value="0" />
+                        </c2d>
+                        <c3d>
+                            <near_plane type="float" value="1" />
+                            <far_plane type="float" value="1000" />
+                            <is_frustum type="boolean" value="true" />
+                            <top_left_corner type="vec3f" x="-1.0" y="1.0" z="1.0" />
+                            <bottom_left_corner type="vec3f" x="-1.0" y="1.0" z="-1.0" />
+                            <bottom_right_corner type="vec3f" x="1.0" y="1.0" z="-1.0" />
+                        </c3d>
+                        <is_master type="boolean" value="false" />
+                        <is_slave type="boolean" value="true" />
+                        <main_display_id type="string" value="main" />
+                        <projection_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <view_offset type="matrixd" i00="1.0" i10="0.0" i20="0.0" i30="0.0" i01="0.0" i11="1.0" i21="0.0" i31="0.0" i02="0.0" i12="0.0" i22="1.0" i32="0.0" i03="0.0" i13="0.0" i23="0.0" i33="1.0" />
+                        <use_master_scene_data type="boolean" value="false" />
+                    </displays>
+                </displays>
+                <pose_as_main_window type="boolean" value="false" />
+                <has_stats_handler type="boolean" value="true" />
+                <has_state_handler type="boolean" value="true" />
+                <has_viewer_handler type="boolean" value="true" />
+                <window_rotation type="string" value="NONE" />
+            </windows>
+        </windows>
+        <eye_pos type="vec3f" x="0.0" y="0.0" z="0.0" />
+    </displays>
+</propertylist>

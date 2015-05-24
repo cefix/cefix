@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<debug>
+		<errorLog>
+			<onScreen type="boolean" value="1"/>
+			<onConsole type="boolean" value="1"/>
+			<redirectStandardOut type="boolean" value="true"/>
+		</errorLog>
+		<autopilot>
+			<active type="boolean" value="true"/>
+			<step type="integer" value="1"/>
+		</autopilot>
+		<picking type="boolean" value="true" />
+	</debug>
+
+	<viewer>
+		<x_threadingModel type="symbol" value="automatic" />
+        <cefix>
+			<QuicktimeUsePixelBufferObjects type="boolean" value="true"/>
+			<observeTextures type="boolean" value="0"/>
+			<observeDataContainer type="boolean" value="0"/>
+			<observeAnimations type="boolean" value="0"/>
+			<observeImages type="boolean" value="0"/>
+		</cefix>
+		<rebootsettings>
+			<rebootHour type="integer" value="6"/>
+			<enabled type="boolean" value="true"/>
+		</rebootsettings>
+		<!--osg notifylevel, moeglich sind DEBUG_FP, DEBUG_INFO, INFO, NOTICE, WARN, ALWAYS-->
+		<notifyLevel type="string" value="WARN"/>
+		<exitOnEscape type="boolean" value="1"/>
+		<mainwindow>
+			<showMouseCursor type="boolean" value="true"/>
+			<width type="integer" value="800"/>
+			<height type="integer" value="600"/>
+			<fullscreen type="boolean" value="false"/>
+			<screenResizeAllowed type="boolean" value="false"/>
+			<screenNum type="integer" value="1"/>
+			<!-- antialiasing-settings: -->
+			<fsaa type="integer" value="0"/>
+			<vsync type="boolean" value="true" />
+			<multithreadedOpenGL type="boolean" value="true" />
+			<options>
+				<viewer type="boolean" value="1"/>
+				<state type="boolean" value="1"/>
+				<stats type="boolean" value="1"/>
+			</options>
+			<perspective>
+				<!-- -1 == automatisch berechen lassen -->
+				<horizontalFieldOfView type="float" value="60"/>
+				<verticalFieldOfView type="float" value="-1"/>
+				<nearPlane type="float" value="1.0"/>
+				<farPlane type="float" value="1000.0"/>
+			</perspective>
+			<light>
+                <sky type="boolean" value="1"/>
+                <head type="boolean" value="1"/>
+            </light>
+			<!-- moegliche werte: NONE, TILTED_LEFT, UPSIDE_DOWN, TILTED_RIGHT -->
+			<Rotation type="symbol" value="NONE"/>
+		</mainwindow>
+	</viewer>
+	<testPrefsInheritance>
+		<value_1>
+			<text type="string" value="huhu"/>
+			<pos type="vector" x="10" y="20" z="30"/>
+			<f type="float" value="100.99"/>
+			<range>
+				<min type="integer" value="0"/>
+				<max type="integer" value="100"/>
+			</range>
+		</value_1>
+		<value_2>
+			<inheritFrom type="string" value="value_1"/>
+			<pos type="vector" x="20" y="30" z="40"/>
+			<range>
+				<min type="integer" value="10"/>
+			</range>
+		</value_2>
+		<value_3>
+			<inheritFrom type="string" value="value_2"/>
+			<f type="float" value="200.99"/>
+		</value_3>
+		<value_4>
+			<inheritFrom type="string" value="value_3"/>
+			<text type="string" value="haha"/>
+			<f type="float" value="10.99"/>
+			<range>
+				<max type="integer" value="200"/>
+			</range>
+		</value_4>
+	</testPrefsInheritance>
+</preferences>

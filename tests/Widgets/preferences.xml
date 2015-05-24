@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+    <debug>
+        <errorLog>
+            <onScreen type="boolean" value="1"/>
+            <onConsole type="boolean" value="true"/>
+			<redirectStandardOut type="boolean" value="false" />
+        </errorLog>
+        <autopilot>
+            <active type="boolean" value="true"/>
+            <step type="integer" value="1"/>
+        </autopilot>
+    </debug>
+	
+    <viewer>
+		<threadingModel type="symbol" value="singlethreaded" />
+        <cefix>
+            <QuicktimeUsePixelBufferObjects type="boolean" value="true"/>
+			<allocationObserverPrefsKey type="string" value="/viewer/cefix/AllocationObserver" />
+			<AllocationObserver>
+				<enabled type="boolean" value="0" />
+				<samplingTime type="float" value="0.5" />
+				<observe>
+					<texture type="boolean" value="1" />
+					<dataContainer type="boolean" value="1" />
+					<Animation type="boolean" value="1" />
+					<Image type="boolean" value="1" />
+					<QuicktimeMovie type="boolean" value="1" />
+				</observe>
+			</AllocationObserver>
+			<reportMissingCodePoints type="boolean" value="true" />
+        </cefix>
+        <rebootsettings>
+            <rebootHour type="integer" value="6" />
+            <enabled type="boolean" value="false" />
+        </rebootsettings>
+        <showMouseCursor type="boolean" value="true"/>
+        <width type="integer" value="800"/>
+        <height type="integer" value="600"/>
+        <!--ConfigFile fuer den viewer, optional-->
+        <xconfigFile type="string" value="viewer_config.cfg"/>
+        <fullscreen type="boolean" value="false" />
+		<screenNum type="integer" value="1" />
+        <!--osg notifylevel, moeglich sind DEBUG_FP, DEBUG_INFO, INFO, NOTICE, WARN, ALWAYS-->
+        <notifyLevel type="string" value="WARN"/>
+        <!-- antialiasing-settings: -->
+        <useFSAA type="integer" value="1"/>
+		<adjustScreenSize type="boolean" value="true" />
+        <options>
+            <exitOnEscape type="boolean" value="1"/>
+            <standardSettings type="boolean" value="0"/>
+            <manipulators>
+                <trackball type="boolean" value="1"/>
+                <drive type="boolean" value="0"/>
+                <flight type="boolean" value="0"/>
+                <terrain type="boolean" value="0"/>
+                <ufo type="boolean" value="0"/>
+                <viewer type="boolean" value="1"/>
+                <state type="boolean" value="1"/>
+                <stats type="boolean" value="1"/>
+            </manipulators>
+            <light>
+                <sky type="boolean" value="1"/>
+                <head type="boolean" value="1"/>
+            </light>
+        </options>
+        <perspective>
+            <!-- -1 == automatisch berechen lassen -->
+            <horizontalFieldOfView type="float" value="60"/>
+            <verticalFieldOfView type="float" value="-1"/>
+            <nearPlane type="float" value="1.0"/>
+            <farPlane type="float" value="1000.0"/>
+        </perspective>
+        <!-- moegliche werte: NONE, TILTED_LEFT, UPSIDE_DOWN, TILTED_RIGHT -->
+        <displayRotation type="symbol" value="NONE" />
+    </viewer>
+    <testPrefsInheritance>
+		<value_1>
+			<text type="string" value="huhu" />
+			<pos type="vector" x="10" y="20" z="30" />
+			<f type="float" value="100.99" />
+			<range>
+				<min type="integer" value="0"/>
+				<max type="integer" value="100"/>
+			</range>
+		</value_1>
+		<value_2>
+			<inheritFrom type="string" value="value_1" />
+			<pos type="vector" x="20" y="30" z="40" />
+			<range>
+				<min type="integer" value="10" />
+			</range>
+		</value_2>
+		<value_3>
+			<inheritFrom type="string" value="value_2" />
+			<f type="float" value="200.99" />
+		</value_3>
+		<value_4>
+			<inheritFrom type="string" value="value_3" />
+			<text type="string" value="haha" />
+			<f type="float" value="10.99" />
+			<range>
+				<max type="integer" value="200" />
+			</range>
+		</value_4>
+    </testPrefsInheritance>
+    <widgetTest>
+        <groupWidget type="include" value="widgetTest.xml" />
+    </widgetTest>
+    <widgetTest2>
+        <simpleWindowWidget>
+            <title type="string" value="test-texte" />
+            <position type="vector" x="300" y="300" z="10"/>
+            <size type="size" width="500" height="200" />
+            <widgets>
+                <textWidget>
+                    <id type="string" value="text_1" />
+                    <caption type="string" value="eins"/>
+                    <position type="vector" x="10" y="140" z="500" />
+                </textWidget>
+                <textWidget>
+                    <id type="string" value="text_2" />
+                    <caption type="string" value="zwei"/>
+                    <position type="vector" x="10" y="150" z="500" />
+                </textWidget>
+                <textWidget>
+                    <id type="string" value="text_3" />
+                    <caption type="string" value="drei"/>
+                    <position type="vector" x="10" y="160" z="500" />
+                </textWidget>
+            </widgets>
+        </simpleWindowWidget>
+    </widgetTest2>
+    </preferences>

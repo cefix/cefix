@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<viewer>
+		<stereo>
+			<enabled type="boolean" value="0"/>
+			<mode type="string" value="checkerboard" />
+			<screen>
+				<width type="float" value="0.6" />
+				<height type="float" value="0.3" />
+				<distance type="float" value="0.7" />
+			</screen>
+		</stereo>
+		<threadingModel type="symbol" value="singlethreaded" />
+        <cefix>
+			<QuicktimeUsePixelBufferObjects type="boolean" value="true"/>
+			<observeTextures type="boolean" value="0"/>
+			<observeDataContainer type="boolean" value="0"/>
+			<observeAnimations type="boolean" value="0"/>
+			<observeImages type="boolean" value="0"/>
+		</cefix>
+		<rebootsettings>
+			<rebootHour type="integer" value="6"/>
+			<enabled type="boolean" value="false"/>
+		</rebootsettings>
+		<!--osg notifylevel, moeglich sind DEBUG_FP, DEBUG_INFO, INFO, NOTICE, WARN, ALWAYS-->
+		<notifyLevel type="string" value="NOTICE"/>
+		<exitOnEscape type="boolean" value="1"/>
+		<mainwindow>
+			<showMouseCursor type="boolean" value="true"/>
+			<width type="integer" value="800"/>
+			<height type="integer" value="600"/>
+			<fullscreen type="boolean" value="false"/>
+			<screenResizeAllowed type="boolean" value="true"/>
+			<screenNum type="integer" value="1"/>
+			<!-- antialiasing-settings: -->
+			<fsaa type="integer" value="0"/>
+			<vsync type="boolean" value="true" />
+			<multithreadedOpenGL type="boolean" value="false" />
+			<options>
+				<viewer type="boolean" value="1"/>
+				<state type="boolean" value="1"/>
+				<stats type="boolean" value="1"/>
+			</options>
+			<perspective>
+				<!-- -1 == automatisch berechen lassen -->
+				<horizontalFieldOfView type="float" value="60"/>
+				<verticalFieldOfView type="float" value="-1"/>
+				<nearPlane type="float" value="1.0"/>
+				<farPlane type="float" value="1000.0"/>
+			</perspective>
+			<light>
+                <sky type="boolean" value="1"/>
+                <head type="boolean" value="1"/>
+            </light>
+			<!-- moegliche werte: NONE, TILTED_LEFT, UPSIDE_DOWN, TILTED_RIGHT -->
+			<Rotation type="symbol" value="NONE"/>
+		</mainwindow>
+        <displays type="string" value="two_windows_example.xml" />
+        <displays_inline>
+            <windows>
+                <windows id="1">
+                    <traits>
+                        <x type="integer" value="100" />
+                        <y type="integer" value="100" />
+                        <width type="integer" value="400" />
+                        <height type="integer" value="400" />
+                        <screenNum type="integer" value="0" />
+                        <displayNum type="integer" value="0" />
+                        <hostName type="string" value="" />
+                        <windowName type="string" value="" />
+                        <windowDecoration type="boolean" value="true" />
+                        <supportsResize type="boolean" value="true" />
+                        <red type="integer" value="8" />
+                        <blue type="integer" value="8" />
+                        <green type="integer" value="8" />
+                        <stencil type="integer" value="0" />
+                        <sampleBuffers type="integer" value="0" />
+                        <samples type="integer" value="0" />
+                        <pbuffer type="boolean" value="false" />
+                        <quadBufferStereo type="boolean" value="false" />
+                        <doubleBuffer type="boolean" value="true" />
+                        <vsync type="boolean" value="true" />
+                        <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                        <useCursor type="boolean" value="true" />
+                    </traits>
+                    <displays>
+                        <displays>
+                            <identifier type="string" value="main" />
+                            <viewport>
+                                <x type="double" value="0" />
+                                <y type="double" value="0" />
+                                <width type="double" value="400" />
+                                <height type="double" value="400" />
+                            </viewport>
+                            <c2d>
+                                <width type="float" value="400" />
+                                <height type="float" value="400" />
+                            </c2d>
+                            <c3d>
+                                <near_plane type="float" value="1" />
+                                <far_plane type="float" value="1000" />
+                                <is_frustum type="boolean" value="false" />
+                                <horizonal_field_of_view type="float" value="60" />
+                                <vertical_field_of_view type="float" value="-1" />
+                            </c3d>
+                        </displays>
+                    </displays>
+                    <pose_as_main_window type="boolean" value="false" />
+                    <has_context type="boolean" value="true" />
+                    <has_stats_handler type="boolean" value="true" />
+                    <has_state_handler type="boolean" value="true" />
+                    <has_viewer_handler type="boolean" value="true" />
+                    <window_rotation type="string" value="NONE" />
+                </windows>
+                <windows id="2">
+                    <traits>
+                        <x type="integer" value="500" />
+                        <y type="integer" value="100" />
+                        <width type="integer" value="600" />
+                        <height type="integer" value="400" />
+                        <screenNum type="integer" value="0" />
+                        <displayNum type="integer" value="0" />
+                        <hostName type="string" value="" />
+                        <windowName type="string" value="" />
+                        <windowDecoration type="boolean" value="true" />
+                        <supportsResize type="boolean" value="true" />
+                        <red type="integer" value="8" />
+                        <blue type="integer" value="8" />
+                        <green type="integer" value="8" />
+                        <stencil type="integer" value="0" />
+                        <sampleBuffers type="integer" value="0" />
+                        <samples type="integer" value="0" />
+                        <pbuffer type="boolean" value="false" />
+                        <quadBufferStereo type="boolean" value="false" />
+                        <doubleBuffer type="boolean" value="true" />
+                        <vsync type="boolean" value="true" />
+                        <useMultiThreadedOpenGLEngine type="boolean" value="false" />
+                        <useCursor type="boolean" value="true" />
+                    </traits>
+                    <displays>
+                        <displays>
+                            <identifier type="string" value="second_display" />
+                            <viewport>
+                                <x type="double" value="0" />
+                                <y type="double" value="0" />
+                                <width type="double" value="600" />
+                                <height type="double" value="400" />
+                            </viewport>
+                            <c2d>
+                                <width type="float" value="600" />
+                                <height type="float" value="400" />
+                            </c2d>
+                            <c3d>
+                                <near_plane type="float" value="1" />
+                                <far_plane type="float" value="1000" />
+                                <is_frustum type="boolean" value="false" />
+                                <horizonal_field_of_view type="float" value="60" />
+                                <vertical_field_of_view type="float" value="-1" />
+                            </c3d>
+                        </displays>
+                    </displays>
+                    <pose_as_main_window type="boolean" value="false" />
+                    <has_context type="boolean" value="true" />
+                    <has_stats_handler type="boolean" value="true" />
+                    <has_state_handler type="boolean" value="true" />
+                    <has_viewer_handler type="boolean" value="true" />
+                    <window_rotation type="string" value="NONE" />
+                </windows>
+            </windows>
+            <eye_pos type="vec3f" x="0.0000000000" y="0.0000000000" z="0.0000000000" />
+    </displays_inline>
+    
+	</viewer>
+	
+</preferences>

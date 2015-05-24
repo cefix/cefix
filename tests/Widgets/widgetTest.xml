@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groupWidget>
+	<widgets>
+		<transformWidget>
+			<pivot type="vector" x="400" y="300" z="0"/>
+			<rotation type="vector" x="0" y="0" z="40"/>
+			<translation type="vector" x="0" y="50" z="0"/>
+			<widgets>
+				<textWidget>
+					<id type="string" value="text"/>
+					<caption type="string" value="0.00"/>
+					<position type="vector" x="0" y="0" z="0"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+					<fontsize type="float" value="30.0"/>
+				</textWidget>
+			</widgets>
+		</transformWidget>
+
+		<transformWidget>
+			<pivot type="vector" x="400" y="300" z="0"/>
+			<rotation type="vector" x="0" y="0" z="270"/>
+			<translation type="vector" x="00" y="0" z="0"/>
+			<widgets>
+				<textWidget>
+					<id type="string" value="text"/>
+					<caption type="string" value="0.00"/>
+					<position type="vector" x="0" y="0" z="0"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+					<fontsize type="float" value="30.0"/>
+				</textWidget>
+			</widgets>
+		</transformWidget>
+		<transformWidget>
+			<pivot type="vector" x="400" y="300" z="0"/>
+			<rotation type="vector" x="0" y="0" z="40"/>
+			<translation type="vector" x="00" y="0" z="0"/>
+			<widgets>
+				<textWidget>
+					<id type="string" value="text"/>
+					<caption type="string" value="däs möcht ich fei gern gsähä ham"/>
+					<position type="vector" x="0" y="0" z="0"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+					<fontsize type="float" value="30.0"/>
+				</textWidget>
+			</widgets>
+		</transformWidget>
+		<transformWidget>
+			<pivot type="vector" x="400" y="300" z="0"/>
+			<rotation type="vector" x="0" y="0" z="90"/>
+			<translation type="vector" x="00" y="0" z="0"/>
+			<widgets>
+				<textWidget>
+					<id type="string" value="text"/>
+					<caption type="string" value="0.00"/>
+					<position type="vector" x="0" y="0" z="0"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+					<fontsize type="float" value="30.0"/>
+				</textWidget>
+			</widgets>
+		</transformWidget>
+
+		<windowWidget>
+			<title type="string" value="Fänstertitøl im xml däfiniört"/>
+			<position type="vector" x="100" y="100" z="300"/>
+			<size type="size" width="200" height="200"/>
+			<rendermode type="symbol" value="direct"/>
+			<clearcolor type="color" value="#ffffff"/>
+			<prerender type="boolean" value="0" />
+			<widgets>
+				<textWidget>
+					<id type="string" value="slider_1_text"/>
+					<caption type="string" value="0.00"/>
+					<position type="vector" x="190" y="180" z="10"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+				</textWidget>
+				<HorizontalSliderWidget>
+					<id type="string" value="slider_1"/>
+					<position type="vector" x="10" y="180" z="0"/>
+					<size type="size" width="140" height="10"/>
+					<throbberSize type="size" width="20" height="10"/>
+					<min type="float" value="-10"/>
+					<max type="float" value="10"/>
+					<value type="float" value="5"/>
+					<responder>
+						<responder type="string" value="slider_1_text"/>
+						<responder type="string" value="slider_2"/>
+						<responder type="string" value="getter_setter_test"/>
+					</responder>
+				</HorizontalSliderWidget>
+
+				<textWidget>
+					<id type="string" value="slider_2_text"/>
+					<caption type="string" value="0.0"/>
+					<position type="vector" x="190" y="160" z="10"/>
+					<alignment type="symbol" value="right"/>
+					<precision type="integer" value="3"/>
+				</textWidget>
+				<HorizontalSliderWidget>
+					<id type="string" value="slider_2"/>
+					<position type="vector" x="10" y="160" z="0"/>
+					<size type="size" width="140" height="10"/>
+					<throbberSize type="size" width="20" height="10"/>
+					<min type="float" value="-100"/>
+					<max type="float" value="100"/>
+					<value type="float" value="30"/>
+					<responder>
+						<responder type="string" value="slider_2_text"/>
+					</responder>
+				</HorizontalSliderWidget>
+				<VerticalSliderWidget>
+					<id type="string" value="slider_r"/>
+					<position type="vector" x="10" y="80" z="0"/>
+					<size type="size" width="10" height="70"/>
+					<throbberSize type="size" width="10" height="30"/>
+					<min type="float" value="0"/>
+					<max type="float" value="1"/>
+					<value type="float" value="1"/>
+					<responder>
+						<responder type="string" value="change_cube_color"/>
+					</responder>
+					<backgroundFillcolor type="color" value="#ff000033"/>
+					<backgroundStrokeColor type="color" value="#ffffff33"/>
+					<throbberFillColor type="color" value="#ff0000"/>
+					<throbberStrokeColor type="color" value="#ffffff"/>
+				</VerticalSliderWidget>
+				<VerticalSliderWidget>
+					<id type="string" value="slider_g"/>
+					<position type="vector" x="30" y="80" z="0"/>
+					<size type="size" width="10" height="70"/>
+					<throbberSize type="size" width="10" height="30"/>
+					<min type="float" value="0"/>
+					<max type="float" value="1"/>
+					<value type="float" value="0"/>
+					<responder>
+						<responder type="string" value="change_cube_color"/>
+					</responder>
+					<backgroundFillcolor type="color" value="#00ff0033"/>
+					<backgroundStrokeColor type="color" value="#ffffff33"/>
+					<throbberFillColor type="color" value="#00ff00"/>
+					<throbberStrokeColor type="color" value="#ffffff"/>
+				</VerticalSliderWidget>
+				<VerticalSliderWidget>
+					<id type="string" value="slider_b"/>
+					<position type="vector" x="50" y="80" z="0"/>
+					<size type="size" width="10" height="70"/>
+					<throbberSize type="size" width="10" height="30"/>
+					<min type="float" value="0"/>
+					<max type="float" value="1"/>
+					<value type="float" value="0"/>
+					<responder>
+						<responder type="string" value="change_cube_color"/>
+					</responder>
+					<backgroundFillcolor type="color" value="#0000ff33"/>
+					<backgroundStrokeColor type="color" value="#ffffff33"/>
+					<throbberFillColor type="color" value="#0000ff"/>
+					<throbberStrokeColor type="color" value="#ffffff"/>
+				</VerticalSliderWidget>
+				<VerticalSliderWidget>
+					<id type="string" value="slider_a"/>
+					<position type="vector" x="70" y="80" z="0"/>
+					<size type="size" width="10" height="70"/>
+					<throbberSize type="size" width="10" height="30"/>
+					<min type="float" value="0"/>
+					<max type="float" value="1"/>
+					<value type="float" value="1"/>
+					<responder>
+						<responder type="string" value="change_cube_color"/>
+					</responder>
+					<backgroundFillcolor type="color" value="#ffffff33"/>
+					<backgroundStrokeColor type="color" value="#ffffff33"/>
+					<throbberFillColor type="color" value="#ffffff"/>
+					<throbberStrokeColor type="color" value="#ffffff"/>
+				</VerticalSliderWidget>
+				<AreaSliderWidget>
+					<id type="string" value="slider_area"/>
+					<position type="vector" x="90" y="80" z="0"/>
+					<size type="size" width="100" height="70"/>
+					<throbberSize type="size" width="10" height="10"/>
+					<hmin type="float" value="0"/>
+					<hmax type="float" value="1"/>
+					<vmin type="float" value="0"/>
+					<vmax type="float" value="1"/>
+					<value type="point" x="1" y="0.5"/>
+					<responder>
+						<responder type="string" value="change_cube_color"/>
+					</responder>
+				</AreaSliderWidget>
+				<TextButtonWidget>
+					<id type="string" value="button_1"/>
+					<position type="vector" x="10" y="50" z="0"/>
+					<size type="size" width="85" height="18"/>
+					<caption type="string" value="btn 1"/>
+					<selectable type="boolean" value="true"/>
+					<backgroundcolors>
+						<normal type="color" value="#ff0000aa"/>
+						<normal_over type="color" value="#ff0000"/>
+						<selected type="color" value="#00ff00"/>
+						<selected_over type="color" value="#00ff00aa"/>
+					</backgroundcolors>
+					<textcolors>
+						<normal type="color" value="#ffff00aa"/>
+						<normal_over type="color" value="#ffff00"/>
+						<selected type="color" value="#00ffff"/>
+						<selected_over type="color" value="#00ffffaa"/>
+					</textcolors>
+					<alignment type="symbol" value="right"/>
+					<textoffset type="point" x="-5" y="0"/>
+					<responder>
+						<responder type="string" value="button_1_responder"/>
+					</responder>
+				</TextButtonWidget>
+				<TextButtonWidget>
+					<id type="string" value="button_2"/>
+					<position type="vector" x="105" y="50" z="0"/>
+					<size type="size" width="85" height="18"/>
+					<caption type="string" value="Button 2"/>
+					<responder>
+						<responder type="string" value="button_2_responder"/>
+					</responder>
+				</TextButtonWidget>
+			</widgets>
+		</windowWidget>
+		<drawerWidget>
+			<caption type="string" value="Radiobuttons" />
+			<collapsedPosition type="vector" x="600" y="-120" z="200" />
+			<expandedposition type="vector" x="600" y="  00" z="200" />
+			<tabposition type="string" value="top"/>
+			<size type="size" width="150" height="120" />
+			<backgroundcolor type="color" value="#111111ee" />
+			<widgets>
+				<radiobuttongroupwidget>
+					<widgets>
+						<radiobuttonwidget>
+							<id type="string" value="rb_1"/>
+							<position type="vector" x="10" y="10" z="0"/>
+							<size type="size" width="15" height="15"/>
+							<caption type="string" value="Auswahl 5"/>
+						</radiobuttonwidget>
+						<radiobuttonwidget>
+							<id type="string" value="rb_2"/>
+							<position type="vector" x="10" y="30" z="0"/>
+							<size type="size" width="15" height="15"/>
+							<caption type="string" value="Auswahl 4"/>
+						</radiobuttonwidget>
+						<radiobuttonwidget>
+							<id type="string" value="rb_3"/>
+							<position type="vector" x="10" y="50" z="0"/>
+							<size type="size" width="15" height="15"/>
+							<caption type="string" value="Auswahl 3"/>
+						</radiobuttonwidget>
+						<radiobuttonwidget>
+							<id type="string" value="rb_4"/>
+							<position type="vector" x="10" y="70" z="0"/>
+							<size type="size" width="15" height="15"/>
+							<caption type="string" value="Auswahl 2"/>
+						</radiobuttonwidget>
+						<radiobuttonwidget>
+							<id type="string" value="rb_5"/>
+							<position type="vector" x="10" y="90" z="0"/>
+							<size type="size" width="15" height="15"/>
+							<caption type="string" value="Auswahl 1"/>
+						</radiobuttonwidget>
+					</widgets>
+				</radiobuttongroupwidget>
+			</widgets>
+		</drawerWidget>
+		<drawerWidget>
+				<id type="string" value="fov_drawer" />
+                <caption type="string" value="Field of View" />
+                <collapsedPosition type="vector" x="380" y="-170" z="200" />
+                <expandedPosition type="vector" x="380" y="0" z="200" />
+                <tabPosition type="string" value="top" />
+                <size type="size" width="220" height="170" />
+				<backgroundcolor type="color" value="#222222ee" />
+                <widgets>
+                    <fieldOfViewWidget>
+                        <id type="string" value="fov" />
+                        <position type="vector" x="10" y="45" z="0" />
+                        <size type="size" width="200" height="80" />
+                        <vertical type="boolean" value="true" />
+                    </fieldOfViewWidget>
+                    <viewpointmanagerwidget>
+                        <id type="string" value="viewpointManager" />
+                        <position type="vector" x="10" y="140" z="0" />
+                        <size type="size" width="200" height="15" />
+                        <viewpointsPrefKey type="symbol" value="savedviewpoints" />
+                    	<responder>
+                    		<responder type="string" value="fov_status_text"/>
+                    	</responder>
+                    </viewpointmanagerwidget>
+                	<textwidget>
+                		<id type="string" value="fov_status_text" />
+                		<caption type="string" value="no viewpoints captured." />
+                		<position type="vector" x="10" y="130" z="0" />
+                	</textwidget>
+                    <textbuttonwidget>
+                        <id type="string" value="save_btn" />
+                        <caption type="string" value="Save" />
+                        <position type="vector" x="10" y="10" z="0" />
+                        <size type="size" width="200" height="15" />
+                        <responder>
+                            <responder type="string" value="save_preferences" />
+                        </responder>
+                    </textbuttonwidget>
+                </widgets>
+                <collapseOtherDrawers type="boolean" value="true" />
+                <id type="string" value="widget_2" />
+		</drawerWidget>
+	</widgets>
+</groupWidget>

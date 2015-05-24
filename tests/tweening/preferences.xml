@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+	<debug>
+		<errorLog>
+			<onScreen type="boolean" value="1"/>
+			<onConsole type="boolean" value="false"/>
+			<redirectStandardOut type="boolean" value="true"/>
+		</errorLog>
+		<autopilot>
+			<active type="boolean" value="true"/>
+			<step type="integer" value="1"/>
+		</autopilot>
+	</debug>
+
+	<viewer>
+		<stereo>
+			<enabled type="boolean" value="0"/>
+			<mode type="string" value="checkerboard" />
+			<screen>
+				<width type="float" value="0.6" />
+				<height type="float" value="0.3" />
+				<distance type="flaot" value="0.7" />
+			</screen>
+		</stereo>
+		<threadingModel type="symbol" value="singlethreaded" />
+        <cefix>
+			<QuicktimeUsePixelBufferObjects type="boolean" value="true"/>
+			<observeTextures type="boolean" value="0"/>
+			<observeDataContainer type="boolean" value="0"/>
+			<observeAnimations type="boolean" value="0"/>
+			<observeImages type="boolean" value="0"/>
+		</cefix>
+		<rebootsettings>
+			<rebootHour type="integer" value="6"/>
+			<enabled type="boolean" value="false"/>
+		</rebootsettings>
+		<!--osg notifylevel, moeglich sind DEBUG_FP, DEBUG_INFO, INFO, NOTICE, WARN, ALWAYS-->
+		<notifyLevel type="string" value="NOTICE"/>
+		<exitOnEscape type="boolean" value="1"/>
+		<mainwindow>
+			<showMouseCursor type="boolean" value="true"/>
+			<width type="integer" value="980"/>
+			<height type="integer" value="600"/>
+			<fullscreen type="boolean" value="false"/>
+			<screenResizeAllowed type="boolean" value="true"/>
+			<screenNum type="integer" value="2"/>
+			<!-- antialiasing-settings: -->
+			<fsaa type="integer" value="0"/>
+			<vsync type="boolean" value="true" />
+			<multithreadedOpenGL type="boolean" value="true" />
+			<options>
+				<viewer type="boolean" value="1"/>
+				<state type="boolean" value="1"/>
+				<stats type="boolean" value="1"/>
+			</options>
+			<perspective>
+				<!-- -1 == automatisch berechen lassen -->
+				<horizontalFieldOfView type="float" value="60"/>
+				<verticalFieldOfView type="float" value="-1"/>
+				<nearPlane type="float" value="1.0"/>
+				<farPlane type="float" value="1000.0"/>
+			</perspective>
+			<light>
+                <sky type="boolean" value="1"/>
+                <head type="boolean" value="1"/>
+            </light>
+			<!-- moegliche werte: NONE, TILTED_LEFT, UPSIDE_DOWN, TILTED_RIGHT -->
+			<Rotation type="symbol" value="NONE"/>
+		</mainwindow>
+	</viewer>
+	
+</preferences>
